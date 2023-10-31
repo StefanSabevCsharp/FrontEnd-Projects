@@ -1,0 +1,34 @@
+body{
+    background-image: url(Images/cube.jpg) ;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.container{
+    border: 5px solid #fff;
+    border-radius: 20px;
+    width: 25em;
+    height: 30em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(3px);
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 200px;
+    margin: 20px 0;
+    color: #fff;
+}
