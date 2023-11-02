@@ -1,5 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
 body{
-    background-image: url(Images/cube.jpg) ;
+    background-image: url(Images/green.png) ;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
@@ -17,18 +24,63 @@ body{
     border: 5px solid #fff;
     border-radius: 20px;
     width: 25em;
-    height: 30em;
+    height: 38em;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     backdrop-filter: blur(3px);
+
 }
 .form-group{
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 200px;
+    width: 20em;
     margin: 20px 0;
     color: #fff;
+}
+
+.form-group input{
+    height: 2.5em;
+    outline: none;
+    border-radius: 5px;
+    border: 3px solid #fff;
+    background: transparent;
+    color: #fff;
+    padding: 0.5em;
+    font-size: 1em;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.form-group label{
+    font-size: 1.2em;
+    margin-bottom: 1em ;
+}
+
+h2{
+    font-size: 2em;
+    color: #fff;
+}
+.login-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:1 1 auto;
+}
+.login-button input{
+    background: transparent; 
+    border: none; 
+    color: white; 
+    padding: 10px 20px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all 0.5s; 
+}
+
+.login-button input:hover {
+    background-color: #45a049;
 }
