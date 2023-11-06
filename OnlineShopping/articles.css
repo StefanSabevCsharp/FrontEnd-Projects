@@ -1,0 +1,60 @@
+
+.articles {
+    background-color: #f5f5f5;
+    padding: 20px;
+    white-space: nowrap;
+    overflow: hidden; 
+    position: relative; 
+}
+
+.article-container {
+    display: flex; 
+    gap: 20px; 
+    transition: transform 0.5s; 
+}
+
+.article {
+    flex: 0 0 400px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+    border-radius: 5px; 
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative; 
+}
+
+.article h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+}
+
+.article p {
+    font-size: 14px;
+    color: #666;
+}
+
+
+.prev-arrow,
+.next-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    z-index: 1; 
+}
+
+.prev-arrow {
+    left: 10px;
+}
+
+.next-arrow {
+    right: 10px;
+}
