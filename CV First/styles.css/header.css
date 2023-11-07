@@ -1,0 +1,34 @@
+.section-top-bar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.socials li{
+    display: inline-block;
+    margin-right: 5em;
+    font-size: 2em;
+    text-decoration: none;
+    
+}
+.socials span{
+    display: none;
+}
+.socials li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-bar li{
+    display: inline-block;
+    margin-right: 2em;
+    font-size: 1.5em;
+}
+.nav-bar li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-bar li a:hover{
+    border-bottom: 2px solid black;
+    padding-bottom: 3px;
+}
