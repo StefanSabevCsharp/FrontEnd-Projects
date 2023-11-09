@@ -1,0 +1,95 @@
+.section-soft-skills {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+}
+
+.soft-skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.soft-skill {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.soft-skill:hover {
+    transform: scale(1.05);
+}
+
+.soft-skill i {
+    font-size: 36px;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+.soft-skill h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.soft-skill p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .soft-skill {
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Add this to your CSS file */
+.section-skills {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.skill-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill-icon {
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.skill-icon:hover {
+    transform: scale(1.05);
+}
+
+.skill-icon i {
+    font-size: 36px;
+    color: #28a745;
+    margin-bottom: 10px;
+}
+
+.skill-icon p {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .skill-icon {
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+}
