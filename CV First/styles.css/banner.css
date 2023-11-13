@@ -20,11 +20,18 @@
     
 } 
 .Info{
-
     padding-left: 10em;
 }
-.Info p {
+.Info h1{
+    font-size: 3em;
     font-weight: 600;
+    padding-bottom: 0.5em;
+    color: black;
+}
+.Info p {
+    color: black;
+    font-weight: 600;
+    
 }
 .photo{
     margin: 4em;

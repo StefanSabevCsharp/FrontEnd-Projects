@@ -1,0 +1,29 @@
+.section-footer{
+    border-top: 2px solid #2C5C80;
+    padding: 2em;
+}
+
+.section-footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-footer .container a{
+    display: block;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 500;
+
+}
+.section-footer .container ul li{
+    display: block;
+    text-decoration: none;
+    padding: 0.5em 0;
+}
+.contacts h2{
+    padding-bottom: 2.7em;
+}
+.quick-links h2{
+    padding-bottom: 1em;
+}
