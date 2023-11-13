@@ -1,0 +1,52 @@
+.section-education{
+    display: flex;
+   box-sizing: border-box;
+    flex-direction: column;
+  
+}
+.section-education .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    margin: 2em auto;
+}
+.section-education .container ul{
+    display: flex;
+    gap: 1em;
+    
+}
+.section-education .container img{
+    display: block;
+    width: auto;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+    transform: translateX(-50%);
+}
+.section-education .container li{
+    display: block; 
+    width: 13em;
+    height: 20em;
+    overflow: hidden;
+    border-radius: 0.5em;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 1em 0.5em rgba(0,0,0,0.2);
+}
+.section-education .container li:hover{
+    width: 35em;
+   
+}
+.section-education .container li:hover img{
+    transform: translateX(0);
+}
+.section-education h2{
+    text-align: center;
+    width: 100%;
+    font-size: 2em;
+    padding-top: 1em;
+    font-weight: 500;
+    border-bottom: 2px solid black;
+    
+    margin: 0 auto;
+}

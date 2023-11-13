@@ -1,4 +1,4 @@
-.section-soft-skills {
+/* .section-soft-skills {
     background-color: #f4f4f4;
     padding: 40px 0;
 }
@@ -46,12 +46,21 @@
         flex: 0 0 100%;
         margin-bottom: 20px;
     }
-}
+} */
 
-/* Add this to your CSS file */
+
 .section-skills {
-    background-color: #f9f9f9;
     padding: 40px 0;
+    align-items: center;
+    justify-content: center;
+}
+.section-skills h2 {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+    border-bottom: 2px solid black;
+    margin: 0 auto;
 }
 
 .skill-icons {
@@ -60,6 +69,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
+    padding-top: 2em;
 }
 
 .skill-icon {
@@ -77,7 +87,7 @@
 
 .skill-icon i {
     font-size: 36px;
-    color: #28a745;
+    color: black;
     margin-bottom: 10px;
 }
 
