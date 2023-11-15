@@ -7,19 +7,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="styles.css/style.css">
     <title>My CV Site</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    
+   
 </head>
 
 <body>
 
     <div class="section-top-bar">
         <div class="container">
-            <p class="logo"><a href="index.html"><img src="Images/Stefan's Portfolio Logo.png" alt=""></a></p>
+            <p class="logo"><a href="index.html"><img src="Images/logo test.png" alt=""></a></p>
             <div class="nav-bar">
                 <ul>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contacts">Contacts</a></li>
                 </ul>
             </div>
 
@@ -38,7 +41,7 @@
     <div class="section-main">
         <div class="container">
             <div class="photo">
-                <img src="images/profile.png" alt="Stefan Sabev">
+                <img src="images/Stafan Sabev CV.jpg" alt="Stefan Sabev">
             </div>
             <div class="Info">
                 <h1>Hello, I'm Stefan</h1>
@@ -90,7 +93,7 @@
         </div>
     </div>
 
-    <div id="skills" class="section-skills">
+    <div id="Skills" class="section-skills">
         <h2>Skills</h2>
         <div class="container">
             <div class="skill-icons">
@@ -150,11 +153,37 @@
         </div>
     </div>
 
+    <div class="section-projects" id="Projects">
+        <h2> My Projects</h2>
+        <div class="container">
+            <ul>
+                <li>
+                    <h3>First Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                </li>
+
+                <li>
+                    <h3>Second Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                </li>
+                <li>
+                    <h3>Third Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                </li>
+                <li>
+                    <h3>Fourth Project</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
     <div class="section-footer">
         
         <div class="container">
             
-            <div class="contacts">
+            <div class="contacts" id="Contacts">
                 <h2>Contacts</h2>
                 <ul>
                     <li><a href="mailto:stevenbg91@gmail.com">Email: stevenbg91@gmail.com</a></li>
@@ -178,6 +207,27 @@
            
         </div>
     </div>
+
+    <div class="footer-line">
+        <div class="container">
+            <p>© 2023 Stefan Sabev. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $('.nav-bar a').on('click', function (event) {
+                if (this.hash !== '') {
+                    event.preventDefault();
+    
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800);
+                }
+            });
+        });
+    </script>
     
 </body>
 
