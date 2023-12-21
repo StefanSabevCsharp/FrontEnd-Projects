@@ -1,0 +1,59 @@
+.container{
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 1em 2em;
+}
+
+.section-header .container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.phone{
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+.phone a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+
+}
+.phone a:hover{
+    color: #f1c40f;
+}
+.nav{
+    margin: 1em 3em;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 2em;
+
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    color: white;
+}
+.nav ul li a:hover{
+    color: #f1c40f;
+    text-decoration: underline;
+}
+.logo img{
+    max-width: 50%;
+    height: auto;
+}
