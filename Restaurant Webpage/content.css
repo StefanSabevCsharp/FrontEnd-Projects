@@ -1,0 +1,23 @@
+.content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+
+.content-item{
+
+    flex: 1 0 auto;
+    min-width: 300px;
+}
+
+.content-item h2{
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+.content-item p{
+   flex: 1 0 auto;
+   
+   word-wrap: break-word;
+}
