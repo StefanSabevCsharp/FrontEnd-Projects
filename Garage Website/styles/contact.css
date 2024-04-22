@@ -1,0 +1,18 @@
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-section .container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8em;
+}
+
+.map{
+    margin-right: 7em;
+    border-radius: 0.5em;
+   
+    
+}
