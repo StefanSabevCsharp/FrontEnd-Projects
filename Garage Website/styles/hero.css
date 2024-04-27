@@ -9,12 +9,14 @@
     cursor: pointer;
     display: inline-block;
     font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
-    font-size: 16px;
+    /* font-size: 16px; */
+    font-size: 1em;
     font-weight: 800;
     line-height: 16px;
     min-height: 40px;
     outline: 0;
-    padding: 12px 14px;
+    /* padding: 12px 14px; */
+    padding: 1em 2em;
     text-align: center;
     text-rendering: geometricprecision;
     text-transform: none;
