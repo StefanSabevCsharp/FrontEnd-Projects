@@ -1,4 +1,6 @@
-import SingleCard from "./components/Card"
+
+import Gallery from "./components/Gallery"
+import Header from "./components/Header"
 
 
 function App() {
@@ -6,7 +8,8 @@ function App() {
 
   return (
     <>
-     <SingleCard />
+    <Header />
+    <Gallery />
     </>
   )
 }
